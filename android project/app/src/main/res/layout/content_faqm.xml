@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nidhi.projbut.FAQm"
+    tools:showIn="@layout/activity_faqm">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+            1.What are Mozilla Clubs?
+Mozilla Clubs are a global network of community members that share Mozilla’s mission to ensure the Internet is a global public resource, open and accessible to all. Mozilla provides free training and resources to help clubs succeed and grow digital literacy in community spaces.
+"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+            2.Why Mozilla Clubs?
+Mozilla Clubs are a unique and personal way to teach the Web in local communities. They are made up of technologists, thinkers and builders working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of digital world.
+"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+            3.What benefits will I have if I  join Mozilla Club?
+We help students develop their web literacy skills by spreading awareness and teaching the skills required to develop the web. Our motto is to enable people from all age groups and professions to be a part of making amazing things on the web.
+"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+            4.What benefits does the member get after joining the Mozilla Club?
+1. Connecting and Mentoring Youth to support learning/teaching activities.
+ 2. Utilizing social networking platform for social service.
+ 3. Giving them soft-skills, leadership skills and employability skills training (Open-Source).
+4. Continuous Professional Development.
+
+"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_aboutd"
+
+            android:title="About" />
+        <item
+            android:id="@+id/nav_eventd"
+
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_galleryd"
+
+            android:title="Gallery" />
+
+        <item
+            android:id="@+id/nav_organizerd"
+
+            android:title="Organizer" />
+    </group>
+
+
+
+</menu>

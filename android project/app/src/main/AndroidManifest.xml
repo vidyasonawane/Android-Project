@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nidhi.projbut">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cummins"
+        android:label="ClubHub"
+        android:roundIcon="@drawable/cummins"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".second" />
+        <activity android:name=".technical" />
+        <activity
+            android:name=".CodeClub"
+            android:label="@string/title_activity_code_club"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Events"
+            android:label="@string/title_activity_events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FAQ"
+            android:label="@string/title_activity_faq"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Organizer"
+            android:label="Organizer" />
+        <activity
+            android:name=".MozillaClub"
+            android:label="@string/title_activity_mozilla_club"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Aboutm"
+            android:label="About"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Eventsm"
+            android:label="Events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FAQm"
+            android:label="FAQ"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Organizerm"
+            android:label="Organizer" />
+        <activity
+            android:name=".gallerym"
+            android:label="Gallery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".galleryc"
+            android:label="Gallery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Aboutc"
+            android:label="About"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".cultural" />
+        <activity android:name=".contactm" />
+        <activity android:name=".VirtualReality" />
+        <activity android:name=".CyberSecurity" />
+        <activity android:name=".contactc" />
+        <activity
+            android:name=".danceclub"
+            android:label="@string/title_activity_danceclub"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".galleryd"
+            android:label="Gallery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".organiserd"
+            android:label="Organizer" />
+        <activity android:name=".contactd" />
+        <activity
+            android:name=".eventsd"
+            android:label="@string/title_activity_events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".registrationform" />
+        <activity android:name=".AboutD"></activity>
+    </application>
+
+</manifest>

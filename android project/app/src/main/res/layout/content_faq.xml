@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nidhi.projbut.FAQ"
+    tools:showIn="@layout/activity_faq">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+            1.What benefits will I have if I  join codeclub?
+
+The student who joins codeclub develops a sense of confident in coding making them comfortably good programmer. This helps students to grow not only academically but also making them a step closer to being a good coder.
+"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+            2.Do I have to pay to register as a member of CODE CLUB?
+
+No, you have to register for free in the codeclub because we think learning doesn’t need to be paid but the only restriction is that student must belong to Cummins college and must register for the club using their college email id.
+"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+            3.What are the events organized under your club?
+
+We organize various events which helps individual to grow and learn along with other expertise.
+"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+            4.Which year students can join the codeclub?
+
+Any year student can join the code club there is no criteria for marks and other things here.
+"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+            5.Do we need to have any prior knowledge of any programming language?
+
+No, because we the code club team nourish the members from basics to advanced and even if you know some programming knowledge you always have something to learn new things.
+"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+            6.What types of workshops are held and how frequently?Do we also have any competition to part in?
+
+Yes , various workshops are held over a year .Some of the workshops held in the past are Web development workshop and Augmented Reality workshop."
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

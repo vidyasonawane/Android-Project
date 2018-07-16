@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="@drawable/mob"
+tools:context="com.example.nidhi.projbut.Organizer"
+android:weightSum="1">
+
+<TextView
+    android:id="@+id/textView26"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="Organizer Name: Nidhi Singh"
+    android:textColor="#ffffff"
+    android:textSize="24dp"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/textView25"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:textColor="#ffffff"
+    android:text="Contact Information :
+8286224223"
+    android:textSize="24sp"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/textView24"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:textColor="#ffffff"
+
+    android:text="Email:
+    nidhi.singh@cumminscollege.in"
+    android:textSize="22sp"
+    android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Organizer" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call organizer" />
+
+</LinearLayout>

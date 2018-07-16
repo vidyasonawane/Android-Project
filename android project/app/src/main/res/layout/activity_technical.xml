@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cp"
+      tools:context="com.example.nidhi.projbut.technical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Technical Clubs"
+        android:textSize="75dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#ffffff"
+        android:textColorLink="?attr/actionModeSplitBackground"
+        android:textStyle="normal|bold"
+        android:typeface="serif"
+        tools:textColorLink="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/code_club"
+        android:layout_width="185dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="CODE CLUB"
+        android:textSize="25dp"
+        android:layout_above="@+id/pyladies"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+
+        android:layout_marginBottom="28dp" />
+
+    <Button
+        android:id="@+id/pyladies"
+        android:layout_width="185dp"
+        android:textSize="25dp"
+        android:layout_height="60dp"
+        android:text="Mozilla"
+        android:layout_marginBottom="185dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/code_club"
+        android:layout_alignStart="@+id/code_club" />
+
+
+</RelativeLayout>

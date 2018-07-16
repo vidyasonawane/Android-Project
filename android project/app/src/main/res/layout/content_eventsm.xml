@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nidhi.projbut.Eventsm"
+    tools:showIn="@layout/activity_eventsm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="VIRTUAL REALITY WORKSHOP"
+            android:textSize="23dp"
+            android:textColor="@color/blackcolor"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="19dp"
+            android:textColor="@color/grey"
+            android:text="Speaker :Jhon Wilson"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="19dp"
+            android:textColor="@color/grey"
+            android:text="Venue : K B Joshi Hall"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="19dp"
+            android:textColor="@color/grey"
+            android:text="Date : 25/11/2017"
+            />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="19dp"
+            android:textColor="@color/grey"
+            android:text="Timing : 9am to 5pm"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="19dp"
+            android:textColor="@color/grey"
+            android:text="Registration Fee : Rs. 500"
+            />
+
+        <Button
+            android:id="@+id/video1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Watch Youtube Video"
+            android:onClick="virtual"/>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Cyber Security Workshop"
+            android:textAllCaps="true"
+            android:textSize="23dp"
+            android:textColor="@color/blackcolor"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="19dp"
+            android:textColor="@color/grey"
+            android:text="Speaker :Stecy Leina"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="19dp"
+            android:textColor="@color/grey"
+            android:text="Venue : Mechanical Auditorium"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="19dp"
+            android:textColor="@color/grey"
+            android:text="Date : 28/10/2017"
+            />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="19dp"
+            android:textColor="@color/grey"
+            android:text="Timing : 1pm to 5pm"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textSize="19dp"
+            android:textColor="@color/grey"
+            android:text="Registration Fee : Rs. 200"
+            />
+
+        <Button
+            android:id="@+id/video2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Watch Youtube Video"
+            android:onClick="cyber"/>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register" />
+
+
+    </LinearLayout>
+
+</ScrollView>
